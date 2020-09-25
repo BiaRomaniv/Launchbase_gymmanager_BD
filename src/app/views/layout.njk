@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block head %}
+    <title> Gym manager</title>
+    {% endblock %}
+
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+
+<body>
+    <header>
+       
+        <div class="links">
+            <a href="/instructors" >Instrutores</a>
+            <a href="/members">Membros</a>
+        </div>
+    </header>
+
+    {% block content %} {% endblock %}
+
+</body>
+<div class="dev">
+    <p>Desenvolvido por <strong>Bia</strong> Romaniv </p>
+</div>
+
+<div class="links fter">
+    <a href="https://github.com/BiaRomaniv">Github</a>
+    <a href="https://www.linkedin.com/in/biancaromaniv">Linkedin</a>
+    <a href="https://medium.com/@biancaromaniv">Medium</a>
+
+</div>
+    <script src="/script.js"></script>
+</html>-
